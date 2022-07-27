@@ -17,7 +17,7 @@ CROSS    = arm-none-eabi-
 TARGET   = trh7021
 BUILDDIR = build
 
-SRC  = main.c hardware.c i2c.c uart.c
+SRC  = main.c hardware.c i2c.c si7021.c time.c uart.c
 ASRC = startup.s libasm.s
 
 CC = $(CROSS)gcc
@@ -27,7 +27,7 @@ OD = $(CROSS)objdump
 CFLAGS  = -mcpu=cortex-m0plus -mthumb
 CFLAGS += -nostdlib -ffunction-sections
 CFLAGS += -fno-builtin-memcpy -fno-builtin-memset
-CFLAGS += -Wall -pedantic
+CFLAGS += -Wall -Wextra -pedantic
 
 #CFLAGS += -Os
 CFLAGS += -g

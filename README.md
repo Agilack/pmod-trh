@@ -3,6 +3,12 @@ PMOD Temperature and Humidity
 
 This PMOD use an Si7021 sensor for temperature and humidity measurement.
 
+**WARNING** Because of a bad choice into io assignment, it is not possible to
+use UART TX/RX pins on PMOD connector (conflict for SERCOM0 already used for
+I2C interface). Fortunately the TX/RX signals of SERCOM1 can be connected to
+the pins named CTS/RTS of PMOD. This is an hardware bug that will be fix on
+next version.
+
 ![Picture of PMOD-trh rev1](doc/pcb-rev1-top-mini.jpg)
 
 CAD source
