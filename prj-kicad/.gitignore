@@ -1,0 +1,5 @@
+# Kicad files to keep only locally
+pmod-trh-backups
+*.bak
+
+fp-info-cache
