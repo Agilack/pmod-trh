@@ -5,13 +5,13 @@
       "Application": "Pcbnew",
       "Version": "6.0.0"
     },
-    "CreationDate": "2022-07-15T10:31:27+02:00"
+    "CreationDate": "2022-08-14T07:42:53+02:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
       "Name": "pmod-trh",
       "GUID": "706d6f64-2d74-4726-982e-6b696361645f",
-      "Revision": "1"
+      "Revision": "2"
     },
     "Size": {
       "X": 38.2,
@@ -56,11 +56,6 @@
     {
       "Path": "pmod-trh-F_Silkscreen.gbr",
       "FileFunction": "Legend,Top",
-      "FilePolarity": "Positive"
-    },
-    {
-      "Path": "pmod-trh-B_Silkscreen.gbr",
-      "FileFunction": "Legend,Bot",
       "FilePolarity": "Positive"
     },
     {

@@ -15,9 +15,10 @@ CAD source
 ----------
 
 This board has been designed using KiCad EDA (version 6). All sources files
-(schematics, routing, ...) are available into the `prj-kicad` folder. You can
-re-use this design under terms of the Creative Commons  ShareAlike license
-(CC-by-SA).
+(schematics, routing, ...) are available into the `prj-kicad` folder.
+
+This project is OpenHardware. You can re-use this design under terms of the
+Creative Commons  ShareAlike license (CC-by-SA). See [LICENSE.md](LICENSE.md).
 
 <table>
 <tr>
@@ -25,9 +26,9 @@ re-use this design under terms of the Creative Commons  ShareAlike license
 <td><img src="doc/kicad-routing-preview.png" alt="KiCad routing" /></td>
 </tr>
 <tr>
-<td>Fig1: Preview of the KiCad schematics</td>
-<td>Fig2: Preview of the KiCad routing</td>
+<td>Fig1: Preview of the KiCad schematics (rev2)</td>
+<td>Fig2: Preview of the KiCad routing (rev2)</td>
 </tr>
 </table>
 
-![PCB 3D preview](doc/pcb-rev1-3d.jpg)
+![PCB 3D preview](doc/pcb-rev2-3d.jpg)
